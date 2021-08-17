@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(69, 242, 248);
+}
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+header{
+    max-width: 600px;
+    margin: auto;
+}
+textarea{
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 20vh;
+    padding:1rem;
+    margin-top: 2rem;
+    font-size: large;
+}
+.button-div{
+    text-align: center;
+}
+#btn-translate{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+    font-size: large;
+    border: none;
+}
+#output-translate{
+    width: 80%;
+    height: 16vh;
+    border: 1px solid black;
+    margin: auto;
+    padding: 1rem;
+    overflow: scroll;
+}
+.footer {
+    background-color: var(--primary-color);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 2rem;
+    color: black;
+    padding: 1rem;
+}
+.txt-footer {
+    text-align: center;
+}
+.list-inline{
+    display: inline;
+    padding: 0.5rem;
+}
+.list {
+    text-decoration: none;
+    color:black;
+}
